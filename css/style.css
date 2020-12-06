@@ -3083,9 +3083,9 @@ footer {
 	}
 
 	.nav-projects__item {
-		font-size: 12.5px;
+		font-size: 14px;
 		padding: 0px 6px;
-		border-right: 1px solid #000;
+		border-right: 2px solid #000;
 	}
 }
 
@@ -3111,6 +3111,11 @@ footer {
 }
 
 @media (max-width: 340px) {
+	.nav-projects__item {
+		font-size: 12.5px;
+		padding: 0px 6px;
+		border-right: 1px solid #000;
+	}
 	.content-mainslider {
 		padding: 100px 0px 0px 0px;
 	}
